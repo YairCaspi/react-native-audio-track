@@ -115,7 +115,8 @@ public class RNAudioTrackModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void SetVolume(float gain) {
         if (audioTrack != null) {
-            audioTrack.setVolume(gain);
+//            audioTrack.setVolume(gain);
+            audioTrack.setStereoVolume(gain, gain);
         }
     }
 

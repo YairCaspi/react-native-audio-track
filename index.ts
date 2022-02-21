@@ -1,9 +1,6 @@
-
 import { NativeModules } from 'react-native';
 
 const { RNAudioTrack } = NativeModules;
-
-
 
 export default {
     // TODO: params check
